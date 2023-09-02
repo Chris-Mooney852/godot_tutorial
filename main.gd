@@ -18,6 +18,7 @@ func game_over():
 	$MobTimer.stop()
 
 func new_game():
+	print('new game')
 	score = 0
 	$Player.start($StartPosition.position)
 	$ScoreTimer.start()
